@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Banking App</string>
+    <string name="banking_system_app">Basic Banking App</string>
+    <string name="all_users">All Users</string>
+    <string name="all_transactions">All Transactions</string>
+    <string name="made_by_aman_kant_savita">Made By Aman Kant Savita</string>
+</resources>
