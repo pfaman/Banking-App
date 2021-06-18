@@ -4,4 +4,18 @@
     <string name="all_users">All Users</string>
     <string name="all_transactions">All Transactions</string>
     <string name="made_by_aman_kant_savita">Made By Aman Kant Savita</string>
+    <string name="select_a_user_to_transfer_money">Select a user to transfer money</string>
+    <string name="user_name">User Name</string>
+    <string name="rs">Rs.</string>
+    <string name="_7000">7000</string>
+    <string name="slash">/-</string>
+    <string name="no_transactions_yet">No Transactions Yet</string>
+    <string name="not_selected">Not Selected</string>
+    <string name="amount">Amount</string>
+    <string name="to">To</string>
+    <string name="transaction_cancelled">Transaction Cancelled</string>
+    <string name="not_set">Not Set</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="from">From</string>
 </resources>

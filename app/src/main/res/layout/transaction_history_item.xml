@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:id="@+id/transaction_card_view"
     android:layout_margin="10dp"
@@ -23,7 +21,7 @@
                 android:id="@+id/t_from"
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
-                android:text="From"
+                android:text="@string/from"
                 android:textColor="#e31429"
                 android:fontFamily="@font/armata"
                 android:textStyle="bold"
@@ -41,7 +39,7 @@
                 android:fontFamily="@font/armata"
                 android:paddingEnd="3dp"
                 android:textSize="18sp"
-                android:hint="Not Selected"
+                android:hint="@string/not_selected"
                 android:paddingLeft="10dp"
                 android:paddingRight="3dp" />
 
@@ -53,7 +51,7 @@
                 android:fontFamily="@font/armata"
                 android:textStyle="bold"
                 android:textColor="#e31429"
-                android:text="Amount" />
+                android:text="@string/amount" />
         </LinearLayout>
 
         <LinearLayout
@@ -68,7 +66,7 @@
                 android:fontFamily="@font/armata"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="To "
+                android:text="@string/to"
                 android:textColor="#e31429"
                 android:textStyle="bold"
                 android:textSize="18sp" />
@@ -83,7 +81,7 @@
                 android:textColor="@color/black"
                 android:fontFamily="@font/armata"
                 android:paddingEnd="3dp"
-                android:hint="Transaction Cancelled"
+                android:hint="@string/transaction_cancelled"
                 android:paddingLeft="10dp"
                 android:paddingRight="3dp" />
 
@@ -96,7 +94,7 @@
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:textSize="18sp"
-                android:hint="Not Set" />
+                android:hint="@string/not_set" />
         </LinearLayout>
 
         <LinearLayout
@@ -112,7 +110,7 @@
                 android:fontFamily="@font/armata"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Date "
+                android:text="@string/date"
                 android:textColor="#0099ff"
                 android:textStyle="bold"
                 android:textSize="18sp"/>
@@ -123,7 +121,7 @@
                 android:textAlignment="textEnd"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Time "
+                android:text="@string/time"
                 android:fontFamily="@font/armata"
                 android:textColor="#0099ff"
                 android:textStyle="bold"
