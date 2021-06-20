@@ -15,7 +15,7 @@ import com.hellosolver.bankingapp.R;
 
 public class HomeScreen extends AppCompatActivity {
 
-    Animation anim;
+    Animation animation;
     ImageView bankLogo;
     TextView tvBankTitle;
     Button btnAllUsers, btnAllTransactions;
@@ -25,16 +25,16 @@ public class HomeScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_screen);
 
-        anim = AnimationUtils.loadAnimation(this, R.anim.animation);
+        animation = AnimationUtils.loadAnimation(this, R.anim.animation);
         bankLogo = findViewById(R.id.bank_logo);
         btnAllUsers = findViewById(R.id.all_users);
         btnAllTransactions = findViewById(R.id.all_transactions);
         tvBankTitle = findViewById(R.id.bank_title);
 
-        bankLogo.setAnimation(anim);
-        tvBankTitle.setAnimation(anim);
-        btnAllUsers.setAnimation(anim);
-        btnAllTransactions.setAnimation(anim);
+        bankLogo.setAnimation( animation);
+        tvBankTitle.setAnimation( animation);
+        btnAllUsers.setAnimation( animation);
+        btnAllTransactions.setAnimation(animation);
     }
 
     public void showAllUsers(View view) {
