@@ -3,10 +3,8 @@ package com.hellosolver.bankingapp.UI;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.ContentValues;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -15,8 +13,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.hellosolver.bankingapp.DATABASE.TransactionCont;
-import com.hellosolver.bankingapp.DATABASE.TransactionHelper;
+
 import com.hellosolver.bankingapp.R;
 
 public class UserData extends AppCompatActivity {

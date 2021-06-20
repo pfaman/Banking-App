@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:cardCornerRadius="10dp"
+    android:background="@color/white"
     app:cardElevation="8dp"
     android:layout_margin="10dp">
 
@@ -20,7 +21,7 @@
             android:layout_alignParentTop="true"
             android:fontFamily="@font/armata"
             android:text="@string/user_name"
-            android:textColor="#FF0000"
+            android:textColor="@color/white"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -39,7 +40,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/rs"
-                android:textColor="#FF0000"
+                android:textColor="@color/white"
                 android:fontFamily="@font/armata"
                 android:textSize="16sp"
                 android:layout_margin="2dp"/>
@@ -51,7 +52,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/_7000"
                 android:fontFamily="@font/armata"
-                android:textColor="#FF0000"
+                android:textColor="@color/white"
                 android:textSize="16sp"/>
             <TextView
                 android:id="@+id/slash"
